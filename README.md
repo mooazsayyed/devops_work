@@ -1,5 +1,5 @@
 # README
-This is the code which i used for devops assessment.All step are below to complete the task
+This is the code which i used for Deploying a rails application on kubernetes.All step are below to complete the task
 **Step 1 : Dockerizing**
 Writing a Dockerfile and Docker-Compose.yaml
 
