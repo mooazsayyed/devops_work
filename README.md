@@ -1,9 +1,9 @@
 # README
-This is the code which i used for Deploying a rails application on kubernetes.All step are below to complete the task
-**Step 1 : Dockerizing**
+This is the code that I used for deploying a Rails application on Kubernetes.All step are below to complete the task
+**Step 1: Dockerizing**
 Writing a Dockerfile and Docker-Compose.yaml
 
-Containerizing appliation
+Containerizing application
 
 docker build -t image-name .
 docker compose build
@@ -12,8 +12,8 @@ docker compose up
 **Step 2:Kubernetes deployment**
 minikube start
 
-Writing kubernets manifest 
-For postgres , rails and ingress
+Writing Kubernetes manifest 
+For PostgreSQL, Rails and Ingress
 
 ```
 kubectl apply -f rails.yaml
@@ -27,12 +27,12 @@ kubectl get pods
 kubectl get services
 kubectl get ingress
 ```
-To expose the ingress to local loadbalancer 
+To expose the ingress to the local load balancer 
 ```
 minikube tunnel
 ```
 
-Adding kubenetes manifests to a repository
+Adding kubernetes manifests to a repository
 **Step 3:Argo-cd**
 Installing argo-cd
 
